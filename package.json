@@ -1,6 +1,6 @@
 {
   "name": "@petsapp/ts-results",
-  "version": "3.3.1",
+  "version": "3.4.0",
   "description": "A typescript implementation of Rust's Result and Option objects.",
   "repository": "https://github.com/petsapp/ts-results",
   "private": false,
@@ -16,7 +16,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "conditional-type-checks": "^1.0.5",
