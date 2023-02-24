@@ -2,6 +2,7 @@
   "name": "@petsapp/ts-results",
   "version": "3.3.0",
   "description": "A typescript implementation of Rust's Result and Option objects.",
+  "repository": "https://github.com/petsapp/ts-results",
   "private": false,
   "scripts": {
     "build": "npm run clean && npm run build:ts && npm run build:copy",
