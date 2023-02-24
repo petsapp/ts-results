@@ -1,9 +1,10 @@
 {
   "name": "@petsapp/ts-results",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "A typescript implementation of Rust's Result and Option objects.",
   "repository": "https://github.com/petsapp/ts-results",
   "private": false,
+  "main": "./dist/index.js",
   "scripts": {
     "build": "npm run clean && npm run build:ts && npm run build:copy",
     "build:ts": "tsc -p tsconfig.json && tsc -p tsconfig.json -m esnext --outDir dist/esm/ -d false -declarationMap false",
